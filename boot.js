@@ -16,6 +16,7 @@ eth.filter("pending", function(err, block) { checkWork() })
 
 checkWork()
 personal.unlockAccount(eth.accounts[0], "1234", 86400)
+personal.unlockAccount(eth.accounts[1], "1234", 86400)
 
 var zrxExchangeAddress = "0x07d1a9016e7ab7f0f782776c76d60431a2902b24"
 var zrxProxyAddress = "0x7334964d08eecd766f9182e5c60a1255c81acb13"
