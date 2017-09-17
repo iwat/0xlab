@@ -1,2 +1,4 @@
-db/
 boot.local.js
+ethereum/db/geth/
+ethereum/db/history
+node_modules/
