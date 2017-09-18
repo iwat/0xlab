@@ -1,4 +1,4 @@
-import {ZeroEx, Order} from '/usr/local/lib/node_modules/0x.js';
+import {ZeroEx, Order} from '0x.js';
 
 const order: Order = {
   exchangeContractAddress: "0x12459c951127e0c374ff9105dda097662a027093",
